@@ -1,0 +1,16 @@
+export const interests: string[] = [
+  "Data Science",
+  "Quantitative Finance",
+  "Optimization",
+  "Simulation",
+  "Machine Learning",
+  "Operations Research",
+  "Trading Systems",
+  "Risk Management",
+  "Market Microstructure",
+  "Time-Series Forecasting",
+  "Semiconductor Industry",
+  "Consulting",
+  "Manufacturing Systems",
+  "AI Applications",
+];
