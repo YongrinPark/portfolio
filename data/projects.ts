@@ -20,7 +20,7 @@ export const projects: Project[] = [
     title: "Limit Order Book Simulator",
     period: "March 2026 – June 2026",
     tech: ["Python", "Data Structures", "Trading Systems", "Market Microstructure", "Parquet"],
-    projectUrl: "#",
+    projectUrl: "https://github.com/YongrinPark/lob-simulator",
     githubUrl: "https://github.com/YongrinPark/lob-simulator",
     categories: ["financial"],
     variants: {
