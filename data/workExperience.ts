@@ -11,8 +11,9 @@ export const workExperiences: WorkExperience[] = [
     role: "DRAM Application Engineer Intern",
     period: "June 2024 – August 2024",
     bullets: [
-      "Adjusted memory eye values by tuning ODT registers to stabilize signal margins between Samsung DDR5 SODIMM and Intel/AMD boards, optimizing system performance and improving compatibility by 10%.",
-      "Investigated the impact of ODT register values on memory eye margins in new models to identify optimal settings that enhanced next-generation product performance utilizing Python and Bayesian method.",
+      "Improved DDR5 SODIMM compatibility with Intel and AMD platforms by 10% by developing a Python-based automated tuning pipeline in a Linux/UNIX environment that applied Bayesian optimization across a high-dimensional ODT register parameter space.",
+      "Reduced signal instability in next-generation memory modules by engineering a structured data analysis framework — scripting validation routines in Bash and Python — to model the relationship between register values and memory eye margins, with findings adopted into product release specs.",
+      "Accelerated hardware validation throughput across 3 board configurations by building automated data pipelines to capture, triage, and trace signal integrity measurements, improving data reliability and cross-team traceability.",
     ],
   },
   {
