@@ -10,7 +10,7 @@ export default function Interests() {
       <div className="max-w-4xl mx-auto">
         <SectionHeading
           title="Interests"
-          subtitle="Areas I am currently exploring across engineering, data, finance, and technology."
+          subtitle="Areas I am currently exploring across engineering, manufacturing, quality, and technology."
         />
 
         <motion.div

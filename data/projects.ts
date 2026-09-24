@@ -1,4 +1,4 @@
-export type Category = "datascience" | "financial";
+export type Category = "datascience" | "manufacturing";
 
 export interface CategoryVariant {
   description: string;
@@ -19,20 +19,20 @@ export const projects: Project[] = [
   {
     title: "Limit Order Book Simulator",
     period: "March 2026 – June 2026",
-    tech: ["Python", "Data Structures", "Trading Systems", "Market Microstructure", "Parquet"],
+    tech: ["Python", "Data Structures", "Discrete-Event Simulation", "Queueing Theory", "Parquet"],
     projectUrl: "https://github.com/YongrinPark/lob-simulator",
     githubUrl: "https://github.com/YongrinPark/lob-simulator",
-    categories: ["financial"],
+    categories: ["manufacturing"],
     variants: {
-      financial: {
+      manufacturing: {
         description:
-          "Engineered a price-time priority matching engine simulating real exchange mechanics — modeling limit/market order flow, trade execution, and market-making strategies to study trading system dynamics and market microstructure.",
+          "Engineered a discrete-event simulation engine modeling price-time priority queuing and high-throughput transaction processing — applying queueing theory and event-driven simulation techniques directly transferable to production line scheduling and process flow modeling.",
         features: [
-          "Price-time priority order matching replicating exchange logic",
-          "Bid-ask spread and order book depth simulation",
-          "Market-making agent with latency-aware execution",
-          "Trade and quote event log generation",
-          "Parquet-based tick data storage for post-trade analysis",
+          "Price-time priority queue processing replicating high-throughput system logic",
+          "Discrete-event simulation of arrival flow and queue depth",
+          "Latency-aware agent modeling for throughput and capacity analysis",
+          "Event log generation for process trace and audit analysis",
+          "Parquet-based data storage for post-process analysis",
         ],
       },
     },
@@ -40,30 +40,30 @@ export const projects: Project[] = [
   {
     title: "Real-Time Portfolio VaR Monitoring System",
     period: "January 2026 – May 2026",
-    tech: ["Python", "Pandas", "NumPy", "Monte Carlo", "Plotly/Dash", "Risk Management"],
+    tech: ["Python", "Pandas", "NumPy", "Monte Carlo", "Plotly/Dash", "Statistical Process Control"],
     projectUrl: "https://github.com/YongrinPark/Real-Time-Portfolio-VaR-Monitoring-System-Balancing-Computational-Speed-and-Risk-Accuracy",
     githubUrl: "https://github.com/YongrinPark/Real-Time-Portfolio-VaR-Monitoring-System-Balancing-Computational-Speed-and-Risk-Accuracy",
-    categories: ["datascience", "financial"],
+    categories: ["datascience", "manufacturing"],
     variants: {
-      financial: {
+      manufacturing: {
         description:
-          "Built a near real-time risk monitoring system computing 95%/99% VaR at 1-minute intervals across a five-asset portfolio, benchmarking parametric, EWMA, and Monte Carlo risk models with Kupiec backtesting to validate model calibration.",
+          "Built a near real-time statistical process monitoring system computing dynamic control limits at 1-minute intervals across a five-metric process, benchmarking parametric, EWMA, and Monte Carlo models with violation-rate backtesting to validate control-limit calibration.",
         features: [
-          "Real-time VaR updates at 1-minute intervals via intraday data replay",
-          "Benchmarked rolling covariance, EWMA, and Monte Carlo GBM models",
-          "Kupiec test backtesting across 498 observations (7 breaches)",
-          "Sub-millisecond parametric VaR computation",
-          "Live risk dashboard with exceedance visualization (Plotly/Dash)",
+          "Real-time control-limit updates at 1-minute intervals via streaming data replay",
+          "Benchmarked rolling covariance, EWMA, and Monte Carlo simulation models for limit estimation",
+          "Statistical backtesting across 498 observations (7 out-of-control violations) to validate calibration",
+          "Sub-millisecond control-limit computation for high-frequency monitoring",
+          "Live process monitoring dashboard with violation/exceedance visualization (Plotly/Dash)",
         ],
       },
       datascience: {
         description:
-          "Developed an end-to-end risk simulation pipeline using rolling covariance estimation, Monte Carlo GBM simulation, and statistical hypothesis testing to quantify model accuracy and latency trade-offs across multiple VaR methodologies.",
+          "Developed an end-to-end statistical monitoring pipeline using rolling covariance estimation, Monte Carlo simulation, and hypothesis testing to quantify model accuracy and latency trade-offs across multiple control-limit methodologies.",
         features: [
-          "Monte Carlo GBM simulation for portfolio return paths",
+          "Monte Carlo simulation for process/return path generation",
           "Rolling and EWMA covariance matrix estimation",
           "Statistical backtesting via Kupiec likelihood-ratio test",
-          "Model benchmarking framework across three VaR methods",
+          "Model benchmarking framework across three control-limit methods",
           "Real-time Plotly/Dash dashboard for exceedance monitoring",
         ],
       },
@@ -75,17 +75,17 @@ export const projects: Project[] = [
     tech: ["Python", "PyTorch", "LSTM", "GRU", "Time Series", "Scikit-learn", "Pandas"],
     projectUrl: "https://github.com/YongrinPark/IE434-Deep-Dive-Project",
     githubUrl: "https://github.com/YongrinPark/IE434-Deep-Dive-Project",
-    categories: ["datascience", "financial"],
+    categories: ["datascience", "manufacturing"],
     variants: {
-      financial: {
+      manufacturing: {
         description:
-          "Developed a quantitative energy price forecasting framework on 25,000+ hourly observations, benchmarking statistical and deep learning models to support operational decision-making in energy markets with an 18% RMSE reduction.",
+          "Developed a quantitative demand forecasting framework on 25,000+ hourly observations, benchmarking statistical and deep learning models to support operational and capacity planning decisions, achieving an 18% RMSE reduction.",
         features: [
-          "Energy market price modeling with demand-supply signal integration",
-          "Exogenous feature engineering for market condition encoding",
+          "Demand/capacity signal modeling with supply-demand feature integration",
+          "Exogenous feature engineering for operating-condition encoding",
           "Quantitative benchmarking of Ridge, FFNN, LSTM, and GRU models",
-          "Operational decision support through forecast-driven demand planning",
-          "18% RMSE reduction improving market position estimation",
+          "Operational decision support through forecast-driven capacity planning",
+          "18% RMSE reduction improving demand estimation accuracy",
         ],
       },
       datascience: {
@@ -107,8 +107,19 @@ export const projects: Project[] = [
     tech: ["Python", "Optimization", "Forecasting", "Operations Research", "Linear Programming"],
     projectUrl: "/ups-report.pdf",
     githubUrl: "https://github.com/YongrinPark",
-    categories: ["datascience"],
+    categories: ["datascience", "manufacturing"],
     variants: {
+      manufacturing: {
+        description:
+          "Built a data-driven staffing and process optimization model for UPS Ocean Products, combining demand forecasting, time-motion study analysis, and mathematical optimization to reduce operational costs by 15%+ and improve labor efficiency by 20%+.",
+        features: [
+          "Time-motion study data extraction and quantification from process videos",
+          "Demand forecasting under operational uncertainty to drive staffing plans",
+          "Linear programming model for labor allocation and shift scheduling",
+          "20%+ improvement in process throughput through optimized scheduling",
+          "15%+ cost reduction via systematic, data-driven staffing decisions",
+        ],
+      },
       datascience: {
         description:
           "Built a data-driven staffing optimization model for UPS Ocean Products, integrating demand forecasting with mathematical optimization to reduce operational costs by 15%+ and improve labor efficiency by 20%+.",

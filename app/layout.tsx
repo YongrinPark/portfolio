@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "David (Yongrin) Park — Portfolio",
   description:
-    "Industrial Engineering student at UIUC interested in data science, quantitative finance, optimization, and simulation.",
+    "Industrial Engineering student at UIUC interested in manufacturing, process engineering, quality engineering, and process optimization.",
   // TODO: Replace with your actual deployed domain for proper OG tags
   // openGraph: { url: "https://yourdomain.com", ... }
 };

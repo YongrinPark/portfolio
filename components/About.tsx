@@ -5,12 +5,12 @@ import { CheckCircle2 } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const focusAreas = [
-  "Data Science",
-  "Quantitative Finance",
-  "Optimization",
-  "Simulation",
-  "Risk Analysis",
-  "Trading Systems",
+  "Manufacturing",
+  "Process Engineering",
+  "Quality Engineering",
+  "Process Optimization",
+  "Statistical Process Control",
+  "Lean Six Sigma",
 ];
 
 export default function About() {
@@ -33,15 +33,15 @@ export default function About() {
               <span className="font-medium text-gray-900">
                 University of Illinois Urbana-Champaign
               </span>{" "}
-              with a strong interest in data-driven decision-making, quantitative finance,
-              optimization, and simulation. My academic background combines engineering,
+              with a strong interest in manufacturing systems, process engineering, quality
+              engineering, and process optimization. My academic background combines engineering,
               statistics, programming, and operations research.
             </p>
             <p>
               I enjoy building practical projects that model complex systems, analyze uncertainty,
               and translate data into actionable insights. Recently, I have worked on projects
-              involving portfolio risk simulation, financial data analysis, time-series
-              forecasting, and market microstructure.
+              involving process improvement, statistical process control, operational
+              forecasting, and manufacturing systems simulation.
             </p>
           </motion.div>
 

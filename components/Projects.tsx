@@ -13,9 +13,9 @@ const tabs: { label: string; value: Category; description: string }[] = [
     description: "ML, forecasting, NLP, and data-driven optimization projects.",
   },
   {
-    label: "Quantitative Finance",
-    value: "financial",
-    description: "Risk modeling, trading systems, and financial market projects.",
+    label: "Manufacturing & Process",
+    value: "manufacturing",
+    description: "Process optimization, quality engineering, and manufacturing systems projects.",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         <SectionHeading
           title="Selected Projects"
-          subtitle="A collection of technical projects focused on data, finance, simulation, and decision-making systems."
+          subtitle="A collection of technical projects focused on data, manufacturing, simulation, and process optimization."
         />
 
         {/* Tabs */}

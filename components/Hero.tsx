@@ -50,10 +50,10 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
             >
               I&apos;m an Industrial Engineering student at UIUC interested in{" "}
-              <span className="text-gray-800 font-medium">data science</span>,{" "}
-              <span className="text-gray-800 font-medium">quantitative finance</span>,{" "}
-              <span className="text-gray-800 font-medium">optimization</span>, and{" "}
-              <span className="text-gray-800 font-medium">simulation</span>.
+              <span className="text-gray-800 font-medium">manufacturing</span>,{" "}
+              <span className="text-gray-800 font-medium">process engineering</span>,{" "}
+              <span className="text-gray-800 font-medium">quality engineering</span>, and{" "}
+              <span className="text-gray-800 font-medium">process optimization</span>.
             </motion.p>
 
             <motion.p
@@ -140,7 +140,7 @@ export default function Hero() {
               {/* Label badge */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white border border-gray-200 rounded-full px-4 py-1.5 shadow-md whitespace-nowrap">
                 <span className="text-xs font-medium text-gray-600">
-                  IE · Data Science · Quant Finance
+                  IE · Manufacturing · Process Engineering · Quality
                 </span>
               </div>
             </div>
