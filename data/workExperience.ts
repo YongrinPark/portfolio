@@ -7,6 +7,25 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    company: "Intelligent Manufacturing and Thermal Systems Laboratory",
+    role: "Graduate Student Researcher",
+    period: "July 2026 – Present",
+    bullets: [
+      "Operating VR-6000 optical metrology equipment to acquire high-resolution surface height and texture data from 3D-printed parts for defect characterization, manufacturing quality assessment, and production-source identification.",
+      "Developing machine-learning and pattern-recognition methods to identify defect signatures and production-source variation, supporting data-driven failure analysis, quality diagnostics, and root-cause investigation.",
+    ],
+  },
+  {
+    company: "Enterprise Systems Optimization Lab",
+    role: "Graduate Student Researcher",
+    period: "June 2026 – Present",
+    bullets: [
+      "Analyzed large-scale customer-review data to identify recurring product issues, unmet needs, and feature-level patterns, translating qualitative feedback into structured engineering insights.",
+      "Evaluated review-labeling and subfeature-classification methods for consistency and coverage, identifying gaps in predefined categories and limitations in capturing emerging customer requirements.",
+      "Designed an adaptive classification framework to systematically categorize newly identified product issues and customer requests, supporting more consistent analysis and product-improvement decisions.",
+    ],
+  },
+  {
     company: "Samsung Electronics",
     role: "DRAM Application Engineer Intern",
     period: "June 2024 – August 2024",

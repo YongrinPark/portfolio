@@ -9,7 +9,7 @@ export default function WorkExperience() {
   return (
     <section id="experience" className="py-24 px-6 bg-slate-50">
       <div className="max-w-4xl mx-auto">
-        <SectionHeading title="Work Experience" />
+        <SectionHeading title="Work and Research Experience" />
 
         <div className="relative">
           {/* Vertical timeline line */}
