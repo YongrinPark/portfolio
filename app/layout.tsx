@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "David (Yongrin) Park — Portfolio",
+  title: "Yongrin David Park — Portfolio",
   description:
     "Industrial Engineering student at UIUC interested in manufacturing, process engineering, quality engineering, and process optimization.",
   // TODO: Replace with your actual deployed domain for proper OG tags

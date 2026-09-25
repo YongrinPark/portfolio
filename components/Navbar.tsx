@@ -41,7 +41,7 @@ export default function Navbar() {
           onClick={() => handleNavClick("#hero")}
           className="text-lg font-semibold text-gray-900 tracking-tight hover:text-blue-600 transition-colors"
         >
-          David (Yongrin) Park
+          Yongrin David Park
         </button>
 
         {/* Desktop nav */}

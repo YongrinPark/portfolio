@@ -40,7 +40,7 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
             >
               Hi, I&apos;m{" "}
-              <span className="text-blue-600">David (Yongrin) Park.</span>
+              <span className="text-blue-600">Yongrin David Park.</span>
             </motion.h1>
 
             <motion.p
@@ -129,7 +129,7 @@ export default function Hero() {
               <div className="relative w-64 h-64 md:w-72 md:h-72 rounded-2xl bg-white border border-gray-200 shadow-2xl overflow-hidden">
                 <Image
                   src="/profile.png"
-                  alt="David (Yongrin) Park"
+                  alt="Yongrin David Park"
                   fill
                   className="object-cover object-top scale-110"
                   style={{ mixBlendMode: "multiply" }}

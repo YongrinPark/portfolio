@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-8 px-6 border-t border-gray-200 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         <p className="text-sm text-gray-400">
-          © 2026 David (Yongrin) Park. Built with Next.js and Tailwind CSS.
+          © 2026 Yongrin David Park. Built with Next.js and Tailwind CSS.
         </p>
       </div>
     </footer>
